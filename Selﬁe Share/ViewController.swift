@@ -20,7 +20,7 @@ class ViewController: UICollectionViewController {
     
     @objc func showConnectionPrompt() {
         let ac = UIAlertController(title: "Connect to others", message: nil, preferredStyle: .actionSheet)
-        navigationController?.popoverPresentationController?.barButtonItem = navigationItem.leftBarButtonItem
+        ac.popoverPresentationController?.barButtonItem = navigationItem.leftBarButtonItem
         ac.addAction(UIAlertAction(title: "Host a session", style: .default, handler: startHosting))
         ac.addAction(UIAlertAction(title: "Join a session", style: .default, handler: joinSession))
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
