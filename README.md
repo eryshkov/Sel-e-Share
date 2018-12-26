@@ -2,7 +2,7 @@
 
 <div align = "center">
 <img src="/screens/1.jpeg" width="40%">    
-<img src="/screens/2.jpeg" width="40%">    
+<img src="/screens/2.jpeg" width="50%">    
 </div>
 
 <p align="center">
