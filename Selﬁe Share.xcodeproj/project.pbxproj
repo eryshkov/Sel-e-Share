@@ -22,6 +22,9 @@
 		5C626CB121D3739000E2A042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C626CB421D3739000E2A042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C626CB621D3739000E2A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C626CBC21D3EECE00E2A042 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C626CBE21D405F600E2A042 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		5C626CBF21D405F600E2A042 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,8 @@
 		5C626C9E21D3738D00E2A042 = {
 			isa = PBXGroup;
 			children = (
+				5C626CBD21D3EED700E2A042 /* screens */,
+				5C626CBC21D3EECE00E2A042 /* README.md */,
 				5C626CA921D3738D00E2A042 /* Selﬁe Share */,
 				5C626CA821D3738D00E2A042 /* Products */,
 			);
@@ -62,6 +67,15 @@
 				5C626CB621D3739000E2A042 /* Info.plist */,
 			);
 			path = "Selﬁe Share";
+			sourceTree = "<group>";
+		};
+		5C626CBD21D3EED700E2A042 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C626CBF21D405F600E2A042 /* 1.jpeg */,
+				5C626CBE21D405F600E2A042 /* 2.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
